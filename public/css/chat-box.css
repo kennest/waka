@@ -1,0 +1,6 @@
+#chatbox{
+    bottom: -3%;
+    position: fixed;
+    width: 350px;
+    z-index: 100000000;
+}
