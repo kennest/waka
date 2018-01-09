@@ -50,10 +50,7 @@
 							<b class="caret"></b>
 						</a>
 						<ul class="dropdown-menu megamenu row">
-							<li class="col-sm-3">
-
-							</li>
-							<li class="col-sm-3">
+							<li class="col-sm-6 col-sm-offset-3">
 								<ul>
 									<li class="dropdown-header">
 										<h5>SERVICES</h5>
@@ -87,7 +84,7 @@
 							<b class="caret"></b>
 						</a>
 						<ul class="dropdown-menu megamenu row">
-							<li class="col-sm-3 col-sm-offset-3">
+							<li class="col-sm-6 col-sm-offset-3">
 								<ul>
 									<li class="dropdown-header">
 										<h5>QUI SOMMES NOUS?</h5>
@@ -121,7 +118,7 @@
 							<b class="caret"></b>
 						</a>
 						<ul class="dropdown-menu megamenu row">
-							<li class="col-sm-3 col-sm-offset-3">
+							<li class="col-sm-6 col-sm-offset-3">
 								<ul>
 									<li class="dropdown-header">
 										<h5> ACTUALITES TECHNOLOGIQUE ET ENTREPRISE VEILLE</h5>
@@ -387,7 +384,6 @@
         channel.bind('my-event', function(data) {
             alert(data.message);
         });
-
 	</script>
 </body>
 

@@ -33,6 +33,11 @@ border-color: #000000;
 .megamenu{
   padding: 20px 0px;
   width:100%;
+  background-image: url('../images/bg-menu.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .megamenu> li > ul {
   padding: 0;
@@ -53,8 +58,8 @@ border-color: #000000;
 .megamenu> li ul > li > a:hover,
 .megamenu> li ul > li > a:focus {
   text-decoration: none;
-  color: #262626;
-  background-color: #f5f5f5;
+  color: #fcf8f8;
+  background-color: #084410;
 }
 .megamenu.disabled > a,
 .megamenu.disabled > a:hover,
