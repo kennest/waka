@@ -22,59 +22,59 @@
 						<a class="btn btn-primary btn-lg" href="#" role="button">En Savoir plus</a>
 					</p>
 				</div>
-      </div>
-      <hr/>
-      <div class="row">
-        <h3 class="well">Heading Text</h3>
-          <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-              <img src="http://via.placeholder.com/550x250" alt="...">
-              <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>
-                  Duis lectus libero, condimentum at tincidunt eu, posuere sit amet felis. Nullam vel condimentum risus, non consectetur dolor.
-                  Donec bibendum tortor
-                </p>
-                <p>
-                  <a href="#" class="btn btn-primary" role="button">Button</a>
-                  <a href="#" class="btn btn-default" role="button">Button</a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-              <img src="http://via.placeholder.com/550x250" alt="...">
-              <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>
-                  Duis lectus libero, condimentum at tincidunt eu, posuere sit amet felis. Nullam vel condimentum risus, non consectetur dolor.
-                  Donec bibendum tortor
-                </p>
-                <p>
-                  <a href="#" class="btn btn-primary" role="button">Button</a>
-                  <a href="#" class="btn btn-default" role="button">Button</a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-              <img src="http://via.placeholder.com/550x250" alt="...">
-              <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>
-                  Duis lectus libero, condimentum at tincidunt eu, posuere sit amet felis. Nullam vel condimentum risus, non consectetur dolor.
-                  Donec bibendum tortor
-                </p>
-                <p>
-                  <a href="#" class="btn btn-primary" role="button">Button</a>
-                  <a href="#" class="btn btn-default" role="button">Button</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+			</div>
+			<hr/>
+			<div class="row">
+				<h3 class="well">Heading Text</h3>
+				<div class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<img src="http://via.placeholder.com/550x250" alt="...">
+						<div class="caption">
+							<h3>Thumbnail label</h3>
+							<p>
+								Duis lectus libero, condimentum at tincidunt eu, posuere sit amet felis. Nullam vel condimentum risus, non consectetur dolor.
+								Donec bibendum tortor
+							</p>
+							<p>
+								<a href="#" class="btn btn-primary" role="button">Button</a>
+								<a href="#" class="btn btn-default" role="button">Button</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<img src="http://via.placeholder.com/550x250" alt="...">
+						<div class="caption">
+							<h3>Thumbnail label</h3>
+							<p>
+								Duis lectus libero, condimentum at tincidunt eu, posuere sit amet felis. Nullam vel condimentum risus, non consectetur dolor.
+								Donec bibendum tortor
+							</p>
+							<p>
+								<a href="#" class="btn btn-primary" role="button">Button</a>
+								<a href="#" class="btn btn-default" role="button">Button</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<img src="http://via.placeholder.com/550x250" alt="...">
+						<div class="caption">
+							<h3>Thumbnail label</h3>
+							<p>
+								Duis lectus libero, condimentum at tincidunt eu, posuere sit amet felis. Nullam vel condimentum risus, non consectetur dolor.
+								Donec bibendum tortor
+							</p>
+							<p>
+								<a href="#" class="btn btn-primary" role="button">Button</a>
+								<a href="#" class="btn btn-default" role="button">Button</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="col-lg-4">
 			<aside class="alert alert-default well" id="articles">
@@ -99,6 +99,9 @@
 									non dolor vel arcu varius cursus. Donec dolor urna, placerat sit amet sem ornare, semper finibus nisi. Vivamus a
 									lectus vitae purus cursus congue.
 								</p>
+								<p>
+									<a class="btn btn-primary" href="#" role="button">Lire...</a>
+								</p>
 							</div>
 						</div>
 					</div>
@@ -122,6 +125,9 @@
 									non dolor vel arcu varius cursus. Donec dolor urna, placerat sit amet sem ornare, semper finibus nisi. Vivamus a
 									lectus vitae purus cursus congue.
 								</p>
+								<p>
+									<a class="btn btn-primary" href="#" role="button">Lire...</a>
+								</p>
 							</div>
 						</div>
 					</div>
@@ -144,6 +150,9 @@
 									Donec bibendum tortor sed ultricies venenatis. Donec vitae mauris placerat, tempor ipsum in, finibus odio. Quisque
 									non dolor vel arcu varius cursus. Donec dolor urna, placerat sit amet sem ornare, semper finibus nisi. Vivamus a
 									lectus vitae purus cursus congue.
+								</p>
+								<p>
+									<a class="btn btn-primary" href="#" role="button">Lire...</a>
 								</p>
 							</div>
 						</div>
