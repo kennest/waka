@@ -9,7 +9,7 @@
     padding: 0;
     margin-right: 20px;
 }
-.navbar-default{
+.navbar-default,.btn-primary{
 color: #fff;
 background-color: #2f9b08;
 border-color: #000000;

@@ -17,6 +17,7 @@
 	<!--link rel="stylesheet" type="text/css" href="css/style.css"-->
 	<link rel="stylesheet" type="text/css" href="css/mega-menu.css">
 	<link rel="stylesheet" type="text/css" href="css/chat-box.css">
+	<link rel="stylesheet" type="text/css" href="wow/dist/animate.css">
 
 	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext' rel='stylesheet'
 	 type='text/css' />
@@ -368,10 +369,21 @@
 	<!-- SCRIPTS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="wow/dist/wow.min.js"></script>
 	<script src="js/megamenu.js"></script>
 
 	<script src="https://js.pusher.com/4.1/pusher.min.js"></script>
 	<script>
+			wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       0,          // default
+                      mobile:       true,       // default
+                      live:         false        // default
+                    }
+                    )
+                    wow.init();
 		// Enable pusher logging - don't include this in production
         Pusher.logToConsole = true;
 

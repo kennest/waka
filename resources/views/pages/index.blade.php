@@ -7,7 +7,7 @@
 				<img src="images/logo.jpg" alt="" height="170" class="img-rounded">
 			</div>
 			<div class="row">
-				<div class="jumbotron">
+				<div class="jumbotron wow fadeInLeft">
 					<h1>Bienvenue,chers internautes </h1>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pulvinar lorem sed ipsum eleifend, at egestas lacus pulvinar.
@@ -24,7 +24,7 @@
 				</div>
 			</div>
 			<hr/>
-			<div class="row">
+			<div class="row wow flipInX">
 				<h3 class="well">Heading Text</h3>
 				<div class="col-sm-6 col-md-4">
 					<div class="thumbnail">
@@ -80,7 +80,7 @@
 			<aside class="alert alert-default well" id="articles">
 				<h1>Actualités</h1>
 				<hr/>
-				<div class="panel panel-default">
+				<div class="panel panel-default wow fadeInRight">
 					<div class="panel-heading">
 						<h3 class="panel-title">Article 1</h3>
 					</div>
@@ -106,7 +106,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="panel panel-default">
+				<div class="panel panel-default wow fadeInRight">
 					<div class="panel-heading">
 						<h3 class="panel-title">Article 2</h3>
 					</div>
@@ -132,7 +132,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="panel panel-default">
+				<div class="panel panel-default wow fadeInRight">
 					<div class="panel-heading">
 						<h3 class="panel-title">Article 3</h3>
 					</div>
