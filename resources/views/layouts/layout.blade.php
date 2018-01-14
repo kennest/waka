@@ -51,64 +51,92 @@
 							<b class="caret"></b>
 						</a>
 						<ul class="dropdown-menu megamenu row">
-							<li class="col-sm-6 col-sm-offset-3">
+							<li class="col-sm-4">
 								<ul>
-									<li class="dropdown-header">
-										<h5>SERVICES</h5>
+									<li class="dropdown-header text-uppercase">
+										<h5>
+											Solution de connectivité haut-débit
+										</h5>
+									</li>
+									<li class="divider"></li>
+									<li>
+										<a href="#">Fibre Optique Pro</a>
 									</li>
 									<li>
-										<a href="#">
-											<h4>FIBRE OPTIQUE PRO</h4>
-										</a>
+										<a href="#">Vsat Pro</a>
 									</li>
 									<li>
-										<a href="#">
-											<h4>VOIP ENTREPRISE</h4>
-										</a>
+										<a href="#">VPN</a>
 									</li>
 									<li>
-										<a href="#">
-											<h4>VSAT</h4>
-										</a>
+										<a href="#">Wimax</a>
 									</li>
 									<li>
-										<a href="#">
-											<h4>ADSL</h4>
-										</a>
+										<a href="#">Interconnection sites distants</a>
+									</li>
+								</ul>
+							</li>
+							<li class="col-sm-4">
+								<ul>
+									<li class="dropdown-header text-uppercase">
+										<h5>
+											Solutions à valeurs ajoutée
+										</h5>
+									</li>
+									<li class="divider"></li>
+									<li>
+										<a href="#">Voip</a>
+									</li>
+									<li>
+										<a href="#">Solution Ip Tv</a>
+									</li>
+									<li>
+										<a href="#">Video conférence</a>
+									</li>
+									<li>
+										<a href="#">Software et plateforme As a service</a>
+									</li>
+									<li>
+										<a href="#">Vidéo surveillance</a>
+									</li>
+								</ul>
+							</li>
+							<li class="col-sm-4">
+								<ul>
+									<li class="dropdown-header text-uppercase">
+										<h5>
+											Etude et développement
+										</h5>
+									</li>
+									<li class="divider"></li>
+									<li>
+										<a href="#">Conception d'archtectures</a>
+									</li>
+									<li>
+										<a href="#">Supervision</a>
 									</li>
 								</ul>
 							</li>
 						</ul>
 					</li>
 					<li class="dropdown menu-large">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">A-PROPOS
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">A PROPOS
 							<b class="caret"></b>
 						</a>
 						<ul class="dropdown-menu megamenu row">
-							<li class="col-sm-6 col-sm-offset-3">
+							<li class="col-sm-4 col-sm-offset-4">
 								<ul>
-									<li class="dropdown-header">
-										<h5>QUI SOMMES NOUS?</h5>
+									<li class="dropdown-header text-uppercase">
+										<h5>
+											Qui sommes nous ? Les équipes
+										</h5>
+									</li>
+									<li class="divider"></li>
+									<li>
+										<a href="#">présentation des valeurs de l'entreprise</a>
 									</li>
 									<li>
-										<a href="#">
-											<h4>PRESENTATION OPTIQUE DE L'ENTREPRISE</h4>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<h4>DIRECTION</h4>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<h4>COMMERCIALE</h4>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<h4>TECHNIQUE</h4>
-										</a>
+										<a href="#">Mise en avant de la qualité de service, charte qualité</a>
 									</li>
 								</ul>
 							</li>
@@ -119,30 +147,25 @@
 							<b class="caret"></b>
 						</a>
 						<ul class="dropdown-menu megamenu row">
-							<li class="col-sm-6 col-sm-offset-3">
+							<li class="col-sm-4 col-sm-offset-5">
 								<ul>
-									<li class="dropdown-header">
-										<h5> ACTUALITES TECHNOLOGIQUE ET ENTREPRISE VEILLE</h5>
+									<li class="dropdown-header text-uppercase">
+										<h5>
+											Actualité technologie et entreprise veille
+										</h5>
+									</li>
+									<li class="divider"></li>
+									<li>
+										<a href="#">L'actualité WAKA</a>
 									</li>
 									<li>
-										<a href="#">
-											<h4>L'ACTUALITES WAKA</h4>
-										</a>
+										<a href="#">événements</a>
 									</li>
 									<li>
-										<a href="#">
-											<h4>EVENEMENTS</h4>
-										</a>
+										<a href="#">Solutions telecoms</a>
 									</li>
 									<li>
-										<a href="#">
-											<h4>SOLUTIONS TELECOMS</h4>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<h4>TEMOIGNAGES ET AVIS</h4>
-										</a>
+										<a href="#">témoignages et avis</a>
 									</li>
 								</ul>
 							</li>
@@ -155,27 +178,24 @@
 						<ul class="dropdown-menu megamenu row">
 							<li class="col-sm-3 col-sm-offset-3">
 								<ul>
-									<li class="dropdown-header">
-										<h5>ACTUALITES TECHNOLOGIQUE ET ENTREPRISE VEILLE</h5>
-									</li>
 									<li>
 										<a href="#">
-											<h4>NEWSLETTERS</h4>
+											Newsletter
 										</a>
 									</li>
 									<li>
 										<a href="#">
-											<h4>BASE DE DONNEES CLIENTS</h4>
+											Base de données client
 										</a>
 									</li>
 									<li>
 										<a href="#">
-											<h4>FAQ</h4>
+											FAQ
 										</a>
 									</li>
 									<li>
 										<a href="#">
-											<h4>DEVIS ONLINE</h4>
+											Devis online
 										</a>
 									</li>
 								</ul>
@@ -305,11 +325,18 @@
 	<footer class="footer">
 		<nav class="navbar navbar-default navbar-static-top">
 			<div class="container">
-				<div class="row">
-					<div class="col-lg-offset-3 row">
+				<p>&nbsp;</p>
+					<div class="row">
+						<div class="col-lg-3">
+							<img src="images/logo.jpg" height="150" width="200" class="img-rounded" alt="">
+							<p class="lead">
+									Opérateur télécom - Expert dans la gestion de réseaux de télécommunications et 
+									la confidentialité des données - 20 ans d’expérience.
+							</p>
+						</div>
 						<div class="col-lg-2">
 							<h4>DIVERS</h4>
-							<ul class="nav navbar-nav">
+							<ul class="nav navbar-nav list-unstyled">
 								<li>
 									<a href="#">Partenaires</a>
 								</li>
@@ -330,7 +357,7 @@
 								</li>
 							</ul>
 						</div>
-						<div class="col-lg-3">
+						<div class="col-lg-2">
 							<h4>CONTACT</h4>
 							<ul class="nav navbar-nav">
 								<li>
@@ -357,9 +384,18 @@
 								</li>
 							</ul>
 						</div>
-						<div class="col-lg-2">
+						<div class="col-lg-3">
 							<h4>SOLUTIONS ET SERVICES</h4>
 						</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<h4><b>Copyright ©2018 {{env('APP_NAME')}}. All rights reserved.</b></h4>
+					</div>
+					<div class="col-sm-4 col-sm-offset-2">
+
 					</div>
 				</div>
 			</div>
@@ -374,7 +410,7 @@
 
 	<script src="https://js.pusher.com/4.1/pusher.min.js"></script>
 	<script>
-			wow = new WOW(
+		wow = new WOW(
                       {
                       boxClass:     'wow',      // default
                       animateClass: 'animated', // default

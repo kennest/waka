@@ -1,165 +1,147 @@
 @extends('../layouts.layout') @section('content')
-<div class="container-fluid">
-	<p>&nbsp;</p>
-	<div class="row">
-		<div class="col-lg-8">
-			<div class="page-header text-center">
-				<img src="images/logo.jpg" alt="" height="170" class="img-rounded">
-			</div>
-			<div class="row">
-				<div class="jumbotron wow fadeInLeft">
-					<h1>Bienvenue,chers internautes </h1>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pulvinar lorem sed ipsum eleifend, at egestas lacus pulvinar.
-						Suspendisse id blandit tortor. Fusce tristique faucibus quam non sodales. Duis ornare imperdiet leo, in pharetra risus
-						bibendum vitae. Etiam hendrerit malesuada est at facilisis. In ultrices gravida placerat. Integer pellentesque, neque
-						in porta pharetra, velit elit laoreet nunc, eu posuere metus tortor sed est. Proin tortor augue, ultrices vitae lobortis
-						sit amet, dictum vestibulum purus. Ut dapibus nibh vitae neque convallis luctus. Pellentesque ut purus imperdiet, auctor
-						risus sed, lacinia metus. Sed eu accumsan orci. Etiam vitae facilisis nibh. Ut pellentesque orci sit amet tristique
-						ultricies.
-					</p>
-					<p>
-						<a class="btn btn-primary btn-lg" href="#" role="button">En Savoir plus</a>
-					</p>
-				</div>
-			</div>
-			<hr/>
-			<div class="row wow flipInX">
-				<h3 class="well">Heading Text</h3>
-				<div class="col-sm-6 col-md-4">
-					<div class="thumbnail">
-						<img src="http://via.placeholder.com/550x250" alt="...">
-						<div class="caption">
-							<h3>Thumbnail label</h3>
-							<p>
-								Duis lectus libero, condimentum at tincidunt eu, posuere sit amet felis. Nullam vel condimentum risus, non consectetur dolor.
-								Donec bibendum tortor
-							</p>
-							<p>
-								<a href="#" class="btn btn-primary" role="button">Button</a>
-								<a href="#" class="btn btn-default" role="button">Button</a>
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-4">
-					<div class="thumbnail">
-						<img src="http://via.placeholder.com/550x250" alt="...">
-						<div class="caption">
-							<h3>Thumbnail label</h3>
-							<p>
-								Duis lectus libero, condimentum at tincidunt eu, posuere sit amet felis. Nullam vel condimentum risus, non consectetur dolor.
-								Donec bibendum tortor
-							</p>
-							<p>
-								<a href="#" class="btn btn-primary" role="button">Button</a>
-								<a href="#" class="btn btn-default" role="button">Button</a>
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-4">
-					<div class="thumbnail">
-						<img src="http://via.placeholder.com/550x250" alt="...">
-						<div class="caption">
-							<h3>Thumbnail label</h3>
-							<p>
-								Duis lectus libero, condimentum at tincidunt eu, posuere sit amet felis. Nullam vel condimentum risus, non consectetur dolor.
-								Donec bibendum tortor
-							</p>
-							<p>
-								<a href="#" class="btn btn-primary" role="button">Button</a>
-								<a href="#" class="btn btn-default" role="button">Button</a>
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="col-lg-4">
-			<aside class="alert alert-default well" id="articles">
-				<h1>Actualités</h1>
-				<hr/>
-				<div class="panel panel-default wow fadeInRight">
-					<div class="panel-heading">
-						<h3 class="panel-title">Article 1</h3>
-					</div>
-					<div class="panel-body">
-						<div class="media">
-							<div class="media-left">
-								<a href="#">
-									<img class="media-object" src="http://via.placeholder.com/100x90" alt="...">
-								</a>
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">Media heading</h4>
-								<p>
-									Duis lectus libero, condimentum at tincidunt eu, posuere sit amet felis. Nullam vel condimentum risus, non consectetur dolor.
-									Donec bibendum tortor sed ultricies venenatis. Donec vitae mauris placerat, tempor ipsum in, finibus odio. Quisque
-									non dolor vel arcu varius cursus. Donec dolor urna, placerat sit amet sem ornare, semper finibus nisi. Vivamus a
-									lectus vitae purus cursus congue.
-								</p>
-								<p>
-									<a class="btn btn-primary" href="#" role="button">Lire...</a>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="panel panel-default wow fadeInRight">
-					<div class="panel-heading">
-						<h3 class="panel-title">Article 2</h3>
-					</div>
-					<div class="panel-body">
-						<div class="media">
-							<div class="media-left">
-								<a href="#">
-									<img class="media-object" src="http://via.placeholder.com/100x90" alt="...">
-								</a>
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">Media heading</h4>
-								<p>
-									Duis lectus libero, condimentum at tincidunt eu, posuere sit amet felis. Nullam vel condimentum risus, non consectetur dolor.
-									Donec bibendum tortor sed ultricies venenatis. Donec vitae mauris placerat, tempor ipsum in, finibus odio. Quisque
-									non dolor vel arcu varius cursus. Donec dolor urna, placerat sit amet sem ornare, semper finibus nisi. Vivamus a
-									lectus vitae purus cursus congue.
-								</p>
-								<p>
-									<a class="btn btn-primary" href="#" role="button">Lire...</a>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="panel panel-default wow fadeInRight">
-					<div class="panel-heading">
-						<h3 class="panel-title">Article 3</h3>
-					</div>
-					<div class="panel-body">
-						<div class="media">
-							<div class="media-left">
-								<a href="#">
-									<img class="media-object" src="http://via.placeholder.com/100x90" alt="...">
-								</a>
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">Media heading</h4>
-								<p>
-									Duis lectus libero, condimentum at tincidunt eu, posuere sit amet felis. Nullam vel condimentum risus, non consectetur dolor.
-									Donec bibendum tortor sed ultricies venenatis. Donec vitae mauris placerat, tempor ipsum in, finibus odio. Quisque
-									non dolor vel arcu varius cursus. Donec dolor urna, placerat sit amet sem ornare, semper finibus nisi. Vivamus a
-									lectus vitae purus cursus congue.
-								</p>
-								<p>
-									<a class="btn btn-primary" href="#" role="button">Lire...</a>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</aside>
-		</div>
-	</div>
-</div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <h3 class="text-center text-success">
+                <b>{{env("APP_NAME")}} AU COEUR DES ÉVÈNEMENTS</b>
+            </h3>
+            <div class="col-sm-3">
+                <div class="panel panel-success">
+                    <div class="panel-body">
+                        <h4><b>Africa Telecoms Awards</b></h4>
+                    </div>
+                    <div class="panel-footer">05-08 Nov 2017</div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="panel panel-success">
+                    <div class="panel-body">
+                        <h4><b>World IT Awards</b></h4>
+                    </div>
+                    <div class="panel-footer">01-03 Jan 2017</div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="panel panel-success">
+                    <div class="panel-body">
+                        <h4><b>CISCO Days</b></h4>
+                    </div>
+                    <div class="panel-footer">12-15 Mai 2016</div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="panel panel-success">
+                    <div class="panel-body">
+                        <h4><b>Others</b></h4>
+                    </div>
+                    <div class="panel-footer">05-08 Sept 2015</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr/>
+    <div class="container-fluid">
+        <div class="row well text-center">
+            <div class="col-sm-4">
+                <img class="img img-circle" src="http://via.placeholder.com/150x150" alt="">
+                <p class="lead"><b><h3>Les offres de {{env('APP_NAME')}}</h3></b></p>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Sed viverra rutrum quam ut iaculis. Duis finibus tempor magna,
+                    ac finibus mauris faucibus at. Nullam id iaculis tortor, maximus
+                    blandit ligula.</p>
+                <a href="#" class="btn btn-lg btn-success">En savoir Plus...</a>
+            </div>
+
+            <div class="col-sm-4">
+                <img class="img img-circle" src="http://via.placeholder.com/150x150" alt="">
+                <p class="lead"><b><h3>VoIP par {{env('APP_NAME')}}</h3></b></p>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Sed viverra rutrum quam ut iaculis. Duis finibus tempor magna,
+                    ac finibus mauris faucibus at. Nullam id iaculis tortor, maximus
+                    blandit ligula.</p>
+                <a href="#" class="btn btn-lg btn-success">En savoir Plus...</a>
+            </div>
+
+            <div class="col-sm-4">
+                <img class="img img-circle" src="http://via.placeholder.com/150x150" alt="">
+                <p class="lead"><b><h3>VSAT PRO par {{env('APP_NAME')}}</h3></b></p>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Sed viverra rutrum quam ut iaculis. Duis finibus tempor magna,
+                    ac finibus mauris faucibus at. Nullam id iaculis tortor, maximus
+                    blandit ligula.</p>
+                <a href="#" class="btn btn-lg btn-success">En savoir Plus...</a>
+            </div>
+        </div>
+        <div class="row text-center">
+            <blockquote>
+                <p class="lead">
+                <h3><b>Depuis 1995, {{env('APP_NAME')}} écoute ses clients et partenaires pour développer ses
+                        solutions</b></h3>
+                </p>
+                <p>
+                    De la téléphonie à la VoIP, de l’ADSL à la Fibre optique Pro en passant par les solutions VPN, nos
+                    produits n’ont qu’un seul objectif : vous aider à faire la différence.
+                </p>
+            </blockquote>
+        </div>
+        <div class="row well">
+            <p><h4 class="text-center"><b>Les offres de {{env('APP_NAME')}}</b></h4></p>
+            <p class="text-center">Le guichet unique de tous les besoins Télécom d’une entreprise.</p>
+            <p>&nbsp;</p>
+
+            <div class="row">
+                <div class="col-sm-2 col-sm-offset-4">
+                    <img src="./images/liaison_haut_debit.png" alt="">
+                </div>
+                <div class="col-sm-4">
+                    <h3><b>Fibre optique pro</b></h3>
+                    <p>
+                        Avec la fibre optique pro, vous boostez immédiatement la vitesse de connexion de vos sites
+                        et assurez le confort de vos échanges Internet.
+                    </p>
+                    <a href="#" class="btn btn-lg btn-success">
+                        <b>Fibre Optique Pro</b>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 col-sm-offset-2">
+                    <h3><b>VoIP entreprise & téléphonie</b></h3>
+                    <p>
+                        En choisissant la téléphonie IP de Vivaction, vous profitez des dernières innovations
+                        technologiques en matière de standard téléphonique d’entreprise, de l’installation et
+                        du suivi des équipes dédiées, pour un tarif simple et économique.
+                    </p>
+                    <a href="#" class="btn btn-lg btn-success">
+                        <b>VoIP entreprise</b>
+                    </a>
+                </div>
+                <div class="col-sm-2">
+                    <img src="./images/telephone_ip.png" alt="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-2 col-sm-offset-4">
+                    <img src="./images/forfait_mobile_pro.png" alt="">
+                </div>
+                <div class="col-sm-4">
+                    <h3><b>Wimax</b></h3>
+                    <p>
+                        Une gamme de forfaits sans engagement tout illimité pour communiquer dans toute l’Europe sans
+                        contrainte. Bénéficiez d’un accompagnement professionnel et personnalisé dans la gestion de
+                        votre flotte mobile.
+
+
+                    </p>
+                    <a href="#" class="btn btn-lg btn-success">
+                        <b>Wimax</b>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
 @endsection()
