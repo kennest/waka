@@ -23,8 +23,8 @@
 		#first-nav>div>div>ul>li>a {
 			color: white;
 		}
-		#first-nav>div>div>ul>li>a:hover{
-			color:#41aa46;
+		#first-nav>div>div>ul>li>a:hover {
+			color: #41aa46;
 		}
 		#second-nav,
 		#third-nav {
@@ -37,20 +37,23 @@
 			color: #3b4042;
 			padding: 5px;
 		}
-		#second-nav > div > div:nth-child(4){
-			top:35px;
+		#second-nav>div>div:nth-child(4) {
+			top: 35px;
 		}
-		#third-nav > div > div > div > ul > li.nav-item > a{
-			color:#53585d;
+		#third-nav>div>div>div>ul>li.nav-item>a {
+			color: #53585d;
 		}
-		#third-nav > div > div > div:nth-child(3) > form > a{
-			color:#41aa46;
+		#third-nav>div>div>div:nth-child(3)>form>a {
+			color: #41aa46;
 		}
-		#third-nav > div > div > div:nth-child(3) > form > a:hover{
-			color:white;
+		#third-nav>div>div>div:nth-child(3)>form>a:hover {
+			color: white;
 		}
-		#slide{
-			margin-top:200px;
+		#slide {
+			margin-top: 200px;
+		}
+		#haut-debit {
+			margin-top: 30px;
 		}
 	</style>
 </head>
@@ -162,32 +165,91 @@
 		</nav>
 	</header>
 	<section id="slide">
-			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-					<ol class="carousel-indicators">
-					  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-					  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-					  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-					</ol>
-					<div class="carousel-inner" role="listbox">
-					  <div class="carousel-item active">
-						<img class="d-block img-fluid" src="http://via.placeholder.com/1900x550" alt="First slide">
-					  </div>
-					  <div class="carousel-item">
-						<img class="d-block img-fluid" src="http://via.placeholder.com/1900x550" alt="Second slide">
-					  </div>
-					  <div class="carousel-item">
-						<img class="d-block img-fluid" src="http://via.placeholder.com/1900x550" alt="Third slide">
-					  </div>
-					</div>
-					<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<div class="carousel-item active">
+					<img class="d-block img-fluid" src="http://via.placeholder.com/1900x450" alt="First slide">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block img-fluid" src="http://via.placeholder.com/1900x450" alt="Second slide">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block img-fluid" src="http://via.placeholder.com/1900x450" alt="Third slide">
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 					  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 					  <span class="sr-only">Previous</span>
 					</a>
-					<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
 					  <span class="carousel-control-next-icon" aria-hidden="true"></span>
 					  <span class="sr-only">Next</span>
 					</a>
-				  </div>
+		</div>
+	</section>
+	<section id="haut-debit">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h1 class="text-center">Le Trés Haut débit de Waka</h1>
+				</div>
+				<div class="col-5">
+					<div class="col-12">
+						<img class="rounded" src="http://via.placeholder.com/450x450">
+					</div>
+					<div class="col-12">
+						<h3><strong>Solution à valeurs ajoutée</strong></h3>
+						<p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
+							bit longer.</p>
+					</div>
+					<div class="col-12">
+						<div class="btn-group" role="group" aria-label="Basic example">
+							<a class="btn btn-secondary">Fibre Optique</a>
+							<a class="btn btn-secondary">VSAT</a>
+							<a class="btn btn-secondary">VPN</a>
+							<a class="btn btn-secondary">Wimax</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-7">
+					<div class="col-12">
+						<img class="rounded" src="http://via.placeholder.com/450x450">
+					</div>
+					<div class="col-12">
+						<h3><strong>Solution à valeurs ajoutée</strong></h3>
+						<p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
+							bit longer.</p>
+					</div>
+					<div class="col-12">
+						<div class="btn-group" role="group" aria-label="Basic example">
+							<a class="btn btn-secondary">Fibre Optique</a>
+							<a class="btn btn-secondary">VSAT</a>
+							<a class="btn btn-secondary">VPN</a>
+							<a class="btn btn-secondary">Wimax</a>
+						</div>
+					</div>
+				</div>
+				<p>&nbsp;</p>
+				<div class="col-12">
+					<div class="card">
+						<img class="card-img-top" src="http://via.placeholder.com/450x450" alt="Card image cap">
+						<div class="card-block">
+							<h4 class="card-title">Solution à valeurs ajoutée</h4>
+							<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
+								bit longer.</p>
+						</div>
+						<div class="card-footer">
+							<small class="text-muted">Last updated 3 mins ago</small>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 	<!-- Chat Box>
 	<div id="chatbox" role="tablist">
