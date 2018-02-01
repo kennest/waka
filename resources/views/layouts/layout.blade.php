@@ -38,7 +38,7 @@
 			padding: 5px;
 		}
 		#second-nav>div>div:nth-child(4) {
-			top: 35px;
+			top: 30px;
 		}
 		#third-nav>div>div>div>ul>li.nav-item>a {
 			color: #53585d;
@@ -52,16 +52,25 @@
 		#slide {
 			margin-top: 200px;
 		}
-		#haut-debit {
-			margin-top: 30px;
+		body>footer>nav>div.container>div>div>ul>li>a,
+		body>footer>nav>div.container>div>div>p {
+			color: white;
+		}
+		body>footer>nav>div.container>div>div>ul>li {
+			margin: 0 0 20px 0;
+		}
+		body>footer>nav>div>div>div>h5 {
+			color: black;
+			background-color: white;
 		}
 	</style>
+	@yield('styles')
 </head>
 <body>
 	<header class="fixed-top">
 		<nav id="first-nav" class="container-fluid navbar navbar-inverse bg-primary">
 			<div class="row">
-				<div class="col-1">&nbsp;</div>
+				<div class="col-lg-1">&nbsp;</div>
 				<div class="col">
 					<ul class="nav list-inline">
 						<li>
@@ -79,7 +88,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-6">
+				<div class="col-lg-6">
 					&nbsp;
 				</div>
 				<div class="col">
@@ -89,17 +98,17 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-1">&nbsp;</div>
+				<div class="col-lg-1">&nbsp;</div>
 			</div>
 			<hr/>
 		</nav>
 		<nav id="second-nav" class="navbar bg-light container-fluid">
 			<div class="row">
-				<div class="col-1">&nbsp;</div>
+				<div class="col-lg-1">&nbsp;</div>
 				<div class="col">
-					<img src="{{asset('images/logo.jpg')}}" height="100" width="170" class="rounded">
+					<img src="{{asset('images/logo.jpg')}}" height="80" width="170" class="rounded">
 				</div>
-				<div class="col-5">&nbsp;</div>
+				<div class="col-lg-5">&nbsp;</div>
 				<div class="col">
 					<nav class="nav list-inline">
 						<ul class="nav list-inline">
@@ -151,7 +160,7 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-6">
+					<div class="col-lg-6">
 						&nbsp;
 					</div>
 					<div class="col">
@@ -190,65 +199,6 @@
 					  <span class="carousel-control-next-icon" aria-hidden="true"></span>
 					  <span class="sr-only">Next</span>
 					</a>
-		</div>
-	</section>
-	<section id="haut-debit">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<h1 class="text-center">Le Trés Haut débit de Waka</h1>
-				</div>
-				<div class="col-5">
-					<div class="col-12">
-						<img class="rounded" src="http://via.placeholder.com/450x450">
-					</div>
-					<div class="col-12">
-						<h3><strong>Solution à valeurs ajoutée</strong></h3>
-						<p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
-							bit longer.</p>
-					</div>
-					<div class="col-12">
-						<div class="btn-group" role="group" aria-label="Basic example">
-							<a class="btn btn-secondary">Fibre Optique</a>
-							<a class="btn btn-secondary">VSAT</a>
-							<a class="btn btn-secondary">VPN</a>
-							<a class="btn btn-secondary">Wimax</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-7">
-					<div class="col-12">
-						<img class="rounded" src="http://via.placeholder.com/450x450">
-					</div>
-					<div class="col-12">
-						<h3><strong>Solution à valeurs ajoutée</strong></h3>
-						<p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
-							bit longer.</p>
-					</div>
-					<div class="col-12">
-						<div class="btn-group" role="group" aria-label="Basic example">
-							<a class="btn btn-secondary">Fibre Optique</a>
-							<a class="btn btn-secondary">VSAT</a>
-							<a class="btn btn-secondary">VPN</a>
-							<a class="btn btn-secondary">Wimax</a>
-						</div>
-					</div>
-				</div>
-				<p>&nbsp;</p>
-				<div class="col-12">
-					<div class="card">
-						<img class="card-img-top" src="http://via.placeholder.com/450x450" alt="Card image cap">
-						<div class="card-block">
-							<h4 class="card-title">Solution à valeurs ajoutée</h4>
-							<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
-								bit longer.</p>
-						</div>
-						<div class="card-footer">
-							<small class="text-muted">Last updated 3 mins ago</small>
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
 	</section>
 	<!-- Chat Box>
@@ -295,18 +245,18 @@
 	<!-- === MAIN Background === -->
 	@yield('content')
 	<footer class="footer">
-		<nav class="navbar navbar-default navbar-static-top">
+		<nav class="navbar navbar-inverse" style="background-color:black;">
 			<div class="container">
 				<p>&nbsp;</p>
 				<div class="row">
-					<div class="col-3">
-						<img src="images/logo.jpg" height="150" width="200" class="img-rounded" alt="">
+					<div class="col-lg-3">
+						<img src="images/logo.jpg" height="150" width="200" class="rounded" alt="">
 						<p class="lead">
 							Opérateur télécom - Expert dans la gestion de réseaux de télécommunications et la confidentialité des données - 20 ans d’expérience.
 						</p>
 					</div>
-					<div class="col-3">
-						<h4>SOLUTIONS ET SERVICES</h4>
+					<div class="col-lg-2">
+						<h5>SOLUTIONS ET SERVICES</h5>
 						<ul class="nav navbar-nav list-unstyled">
 							<li>
 								<a href="#">Solution connectivité haut-débit</a>
@@ -319,8 +269,8 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-2">
-						<h4>DIVERS</h4>
+					<div class="col-lg-2">
+						<h5>DIVERS</h5>
 						<ul class="nav navbar-nav list-unstyled">
 							<li>
 								<a href="#">Partenaires</a>
@@ -342,42 +292,39 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-2">
-						<h4>CONTACT</h4>
+					<div class="col-lg-2">
+						<h5>CONTACT</h5>
 						<ul class="nav navbar-nav">
 							<li>
-								<a href="#">Adresse</a>
+								<a href="">Centre Ville BP 123000 Port Gentil</a>
 							</li>
 							<li>
-								<a href="#">Numero de Telephone</a>
+								<a href="#">+241 01931667 - 06122732</a>
+							</li>
+							<li>
+								<div id="map"></div>
+							</li>
+							<li>
+								<ul class="nav list-inline">
+									<li>
+										<a href=""><i class="fa fa-2x fa-facebook-official"></i></a>
+									</li>
+									<li>&nbsp;</li>
+									<li>&nbsp;</li>
+									<li>
+										<a href=""><i class="fa fa-2x fa-twitter-square"></i></a>
+									</li>
+									<li>&nbsp;</li>
+									<li>&nbsp;</li>
+									<li>
+										<a href=""><i class="fa fa-2x fa-linkedin-square"></i></a>
+									</li>
+								</ul>
 							</li>
 						</ul>
 					</div>
-				</div>
-			</div>
-			<div class="container-fluid">
-				<div class="row" id="copyright">
-					<div class="col-sm-6 col-sm-offset-4">
-						<h4><b>Copyright ©2018 {{env('APP_NAME')}}. All rights reserved.</b></h4>
-					</div>
-					<div class="col-sm-2">
-						<ul class="nav navbar-nav">
-							<li>
-								<a href="">
-												<i class="fa fa-facebook"></i>
-											</a>
-							</li>
-							<li>
-								<a href="">
-												<i class="fa fa-twitter"></i>
-											</a>
-							</li>
-							<li>
-								<a href="">
-												<i class="fa fa-linkedin"></i>
-											</a>
-							</li>
-						</ul>
+					<div class="col-lg-3">
+							<div class="fb-page" data-href="https://www.facebook.com/wakagabon/" data-tabs="timeline" data-width="450" data-height="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/wakagabon/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/wakagabon/">WAKA</a></blockquote></div>
 					</div>
 				</div>
 			</div>
@@ -410,6 +357,16 @@
         channel.bind('my-event', function(data) {
             alert(data.message);
         });
+	</script>
+	<div id="fb-root"></div>
+	<script>
+		(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.12&appId=279563225902445&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
 	</script>
 </body>
 </html>
