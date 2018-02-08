@@ -17,6 +17,9 @@
 	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext' rel='stylesheet'
 	 type='text/css' />
 	<style>
+		header{
+			box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+		}
 		#first-nav {
 			height: 50px;
 		}
@@ -30,24 +33,28 @@
 		#third-nav {
 			background-color: white;
 		}
-		#third-nav {
-			border-top: 1px solid #8d9598;
-		}
+
 		#second-nav>div>div>nav>ul>li>a {
 			color: #3b4042;
-			padding: 5px;
+			padding-right: 35px;
 		}
 		#second-nav>div>div:nth-child(4) {
 			top: 30px;
 		}
 		#third-nav>div>div>div>ul>li.nav-item>a {
 			color: #53585d;
+			font-weight: 600;
 		}
 		#third-nav>div>div>div:nth-child(3)>form>a {
 			color: #41aa46;
+			font-weight: bold;
 		}
 		#third-nav>div>div>div:nth-child(3)>form>a:hover {
 			color: white;
+			font-weight: bold;
+		}
+		#third-nav {
+			border-top: 1px dotted #8d9598;
 		}
 		#slide {
 			margin-top: 200px;
@@ -106,32 +113,23 @@
 			<div class="row">
 				<div class="col-lg-1">&nbsp;</div>
 				<div class="col">
-					<img src="{{asset('images/logo.jpg')}}" height="80" width="170" class="rounded">
+					<img src="{{asset('/images/logo.jpg')}}" height="80" width="170" class="rounded">
 				</div>
-				<div class="col-lg-5">&nbsp;</div>
+				<div class="col-lg-4">&nbsp;</div>
 				<div class="col">
 					<nav class="nav list-inline">
 						<ul class="nav list-inline">
 							<li>
 								<a href="#">A propos</a>
 							</li>
-							<li>|</li>
 							<li>
 								<a href="#">Solutions Waka</a>
 							</li>
-							<li>|</li>
 							<li>
 								<a href="#">Blog</a>
 							</li>
-							<li>|</li>
 							<li>
 								<a href="#">Contact</a>
-							</li>
-							<li>&nbsp;</li>
-							<li>
-								<a href="#">
-										<i class="fa fa-question-circle"></i>
-								</a>
 							</li>
 						</ul>
 					</nav>
@@ -147,16 +145,13 @@
 								<a class="nav-link" href="#">Fibre <span class="sr-only">(current)</span></a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">VSAT</a>
+								<a class="nav-link" href="#">Vsat</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">VOIP</a>
+								<a class="nav-link" href="#">Wimax</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">WIMAX</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">VPN</a>
+								<a class="nav-link" href="#">Hotspot</a>
 							</li>
 						</ul>
 					</div>
@@ -178,17 +173,13 @@
 			<ol class="carousel-indicators">
 				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 			</ol>
 			<div class="carousel-inner" role="listbox">
 				<div class="carousel-item active">
-					<img class="d-block img-fluid" src="http://via.placeholder.com/1900x450" alt="First slide">
+					<img class="d-block img-fluid" src="{{asset('/slides/slide1.png')}}" alt="First slide">
 				</div>
 				<div class="carousel-item">
-					<img class="d-block img-fluid" src="http://via.placeholder.com/1900x450" alt="Second slide">
-				</div>
-				<div class="carousel-item">
-					<img class="d-block img-fluid" src="http://via.placeholder.com/1900x450" alt="Third slide">
+					<img class="d-block img-fluid" src="{{asset('/slides/slide2.jpg')}}" alt="Second slide">
 				</div>
 			</div>
 			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -250,13 +241,13 @@
 				<p>&nbsp;</p>
 				<div class="row">
 					<div class="col-lg-3">
-						<img src="images/logo.jpg" height="150" width="200" class="rounded" alt="">
+						<img src="{{asset('/images/logo.jpg')}}" height="150" width="200" class="rounded" alt="">
 						<p class="lead">
 							Opérateur télécom - Expert dans la gestion de réseaux de télécommunications et la confidentialité des données - 20 ans d’expérience.
 						</p>
 					</div>
 					<div class="col-lg-2">
-						<h5>SOLUTIONS ET SERVICES</h5>
+						<h5 class="">SOLUTIONS ET SERVICES</h5>
 						<ul class="nav navbar-nav list-unstyled">
 							<li>
 								<a href="#">Solution connectivité haut-débit</a>
