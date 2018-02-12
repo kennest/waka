@@ -35,14 +35,14 @@
         #questionnaire {
             position: relative;
             width: 100%;
-            height: 450px;
-            background-color: #3095fe;
+            height: 600px;
+            background-color: #04BAEE;
         }
 
         .image {
             display: block;
             width: 100%;
-            height: auto;
+            height: 100%;
             transition: .5s ease;
             backface-visibility: hidden;
         }
@@ -51,7 +51,7 @@
             transition: .5s ease;
             opacity: 1;
             position: absolute;
-            top: 50%;
+            top: 40%;
             left: 65%;
             transform: translate(-50%, -50%);
             -ms-transform: translate(-50%, -50%);
@@ -60,21 +60,29 @@
 
         #questionnaire > .image-middle {
             position: absolute;
-            top: 30%;
-            right: 53%;
+            top: 5%;
+            right: 60%;
             height:650px;
         }
-
-        #questionnaire > div > div > h2 {
-            background-color: #e62e9a;
-            color: white;
-            font-size: 40px;
-            padding: 16px 32px;
+        #questionnaire > div.image-middle > img{
+            height: 550px;
+            width: 450px;
         }
 
-        #questionnaire > div > div > p:nth-child(3) > strong > a,#questionnaire > div > div > p {
+        #questionnaire > div > div >ul>li >h2 {
+            background-color: #FF16B9;
+            color: white;
+            font-size: 60px;
+            padding: 15px;
+            white-space: nowrap;
+            text-align: justify;
+            width: fit-content;
+        }
+
+        #questionnaire > div.middle > div > p:nth-child(4) > strong > a,#questionnaire > div > div > p {
             color: black;
-            font-size: 20px;
+            font-size: 35px;
+            white-space: nowrap;
         }
 
         #equipe {
@@ -88,7 +96,7 @@
             position: absolute;
             top: 50%;
             left: 25%;
-            width: 35%;
+            width: 40%;
             transform: translate(-50%, -50%);
             -ms-transform: translate(-50%, -50%);
             text-align: center;
@@ -102,11 +110,15 @@
             opacity: 1;
         }
 
-        #equipe > div > div > h2 {
+        #equipe > div > div >ul>li> h2 {
             background-color: #3aa835;
+            margin-bottom: 5px;
             color: white;
-            font-size: 40px;
-            padding: 16px 32px;
+            font-size: 60px;
+            padding: 15px;
+            white-space: nowrap;
+            text-align: justify;
+            width: fit-content;
         }
         #equipe > div > div > p.lead{
             color:white;
@@ -115,13 +127,22 @@
 
         #equipe > div > div > p:nth-child(3) > a{
             padding: 15px;
-            background-color: #f533ae;
+            background-color: #FF16B9;
             color: white;
+        }
+        #news > div{
+            padding-right: 50px;
+            padding-left: 50px;
         }
 
         #news > div > div > div > div > div > div > a{
             color: black;
             text-align:center;
+        }
+
+        #news > div > div > div > div > div > div > p{
+            font-size: large;
+            color:white;
         }
 
         #news > div > div > div.col-lg-12.card-deck > div {
@@ -161,8 +182,16 @@
         #reactivite > div > div > div.col.row > div > div {
             height: 100%;
         }
+        #right > div > div > p:nth-child(2)  > a{
+            padding: 15px;
+            background-color: #f59836;
+            color: white;
+        }
         #right > div > div > p:nth-child(1){
             color:white;
+            font-size: 23px;
+            text-align: justify;
+            font-weight: lighter;
         }
         #haut-debit>.sticker{
             position: absolute;
@@ -220,7 +249,7 @@
                 </div>
                 <div class="col-lg-12">&nbsp;</div>
                 <div class="col-lg-12">&nbsp;</div>
-                <div class="col-lg-6 offset-lg-3 row">
+                <div class="col-lg-6 offset-lg-4 row">
                     <div class="col">
                         <img class="rounded" src="{{asset('/images/ed.png')}}">
                     </div>
@@ -248,7 +277,11 @@
         </div>
         <div class="middle">
             <div class="text">
-                <h2>Quelle solution internet est bonne pour vous?</h2>
+                <ul class="list-unstyled">
+                    <li><h2>Quelle solution internet</h2></li>
+                    <li><h2>est bonne pour vous?</h2></li>
+                </ul>
+                <h2> </h2>
 
                 <p class="lead">Déterminez la solution adaptée à votre besoin</p>
                 <p><strong><a href="#">Répondez au questionnaire</a></strong></p>
@@ -260,9 +293,10 @@
              style="width:100%;height: 100%;">
         <div class="middle">
             <div class="text">
-                <h2>
-                    Nous sommes Waka,une équipe hautement dédiée
-                </h2>
+                <ul class="list-unstyled">
+                    <li><h2>Nous sommes Waka,</h2></li>
+                    <li><h2>une équipe hautement dédiée</h2></li>
+                </ul>
                 <p class="lead">Waka est une entreprise gabonaise,This is a wider card with supporting text below as a
                     natural lead-in to additional
                     content.
@@ -275,11 +309,11 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12" style="padding:30px;">
-                    <h1 class="text-center">Les News</h1>
+                    <h1 class="text-center">A la une...</h1>
                 </div>
                 <div class="col-lg-12">
                     <div class="card-deck">
-                        <div class="card card-inverse border-0 rounded-0 "
+                        <div class="card card-inverse border-0 rounded-0"
                              style="background-color: #01abe9; border-color: transparent;">
                             <img class="card-img-top" src="{{asset('/images/news1.png')}}"
                                  alt="Card image cap">
@@ -291,7 +325,7 @@
                                 <a href="#">En savoir+</a>
                             </div>
                         </div>
-                        <div class="card card-inverse border-0 rounded-0 "
+                        <div class="card card-inverse border-0 rounded-0"
                              style="background-color: #f6c500; border-color: transparent;">
                             <div class="card-block">
                                 <h4 class="card-title">Card title</h4>
@@ -303,7 +337,7 @@
                             <img class="card-img-bottom" src="{{asset('/images/news2.png')}}"
                                  alt="Card image cap">
                         </div>
-                        <div class="card card-inverse border-0 rounded-0 "
+                        <div class="card card-inverse border-0 rounded-0"
                              style="background-color: #fe16b8; border-color: transparent;">
                             <img class="card-img-top" src="{{asset('/images/news3.png')}}"
                                  alt="Card image cap">
@@ -367,7 +401,7 @@
                             <p>This is a wider card with supporting text below as a natural lead-in to additional
                                 content. This
                                 content is a little bit longer.</p>
-                            <p><strong><a class="btn btn-warning" href="#">En savoir+</a></strong></p>
+                            <p><a class="" href="#">En savoir+</a></p>
                         </div>
                     </div>
                 </div>

@@ -22,6 +22,7 @@
 		}
 		#first-nav {
 			height: 50px;
+			background-color: #04BAEE;
 		}
 		#first-nav>div>div>ul>li>a {
 			color: white;
@@ -41,32 +42,54 @@
 		#second-nav>div>div:nth-child(4) {
 			top: 30px;
 		}
-		#third-nav>div>div>div>ul>li.nav-item>a {
+		#third-nav > div > div> ul > li.nav-item > a {
 			color: #53585d;
+			font-size: 23px;
 			font-weight: 600;
 		}
-		#third-nav>div>div>div:nth-child(3)>form>a {
-			color: #41aa46;
-			font-weight: bold;
+		#third-nav > div > div> ul > li.nav-item > a:hover{
+			color: #282b2e;
 		}
-		#third-nav>div>div>div:nth-child(3)>form>a:hover {
+		#third-nav > div > div:nth-child(3) > form > a{
+			color: #41aa46;
+			font-weight: 600;
+			font-size: 20px;
+		}
+		#third-nav > div > div:nth-child(3) > form > a:hover {
 			color: white;
 			font-weight: bold;
 		}
 		#third-nav {
-			border-top: 1px dotted #8d9598;
+			border-top: 1px solid #8d9598;
 		}
 		#slide {
 			margin-top: 200px;
 		}
-		body>footer>nav>div.container>div>div>ul>li>a,
-		body>footer>nav>div.container>div>div>p {
+		body>footer>nav>div.container-fluid>div>div>div>ul>li>a,
+		body>footer>nav>div.container-fluid>div>div>div>p,body > footer > nav > div > div > div > p {
 			color: white;
 		}
-		body>footer>nav>div.container>div>div>ul>li {
-			margin: 0 0 20px 0;
+		.badge {
+			display: inline-block;
+			padding: .25em .5em ;
+			font-size: 15px;
+			font-weight: 700;
+			line-height: 1.5;
+			color: #0e0d0d;
+			text-align: justify;
+			white-space: nowrap;
+			vertical-align: baseline;
+			border-radius: .25rem;
+			margin-bottom: 80px;
 		}
-		body>footer>nav>div>div>div>h5 {
+		body>footer>nav>div.container-fluid>div>div>div>ul>li {
+			margin: 0 0 25px 0;
+		}
+		footer .container-fluid{
+			padding-left: 50px;
+			padding-right: 50px;
+		}
+		body > footer > nav > div > div > div >div> h5 {
 			color: black;
 			background-color: white;
 		}
@@ -75,7 +98,7 @@
 </head>
 <body>
 	<header class="fixed-top">
-		<nav id="first-nav" class="container-fluid navbar navbar-inverse bg-primary">
+		<nav id="first-nav" class="container-fluid navbar navbar-inverse bg-faded">
 			<div class="row">
 				<div class="col-lg-1">&nbsp;</div>
 				<div class="col">
@@ -95,7 +118,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-lg-6">
+				<div class="col-lg-5">
 					&nbsp;
 				</div>
 				<div class="col">
@@ -105,7 +128,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-lg-1">&nbsp;</div>
+				<div class="col-lg-2">&nbsp;</div>
 			</div>
 			<hr/>
 		</nav>
@@ -123,7 +146,7 @@
 								<a href="#">A propos</a>
 							</li>
 							<li>
-								<a href="#">Solutions Waka</a>
+								<a href="#">Solutions WAKA</a>
 							</li>
 							<li>
 								<a href="#">Blog</a>
@@ -136,10 +159,9 @@
 				</div>
 			</div>
 		</nav>
-		<nav id="third-nav" class="navbar bg-faded">
-			<div class="container">
+		<nav id="third-nav" class="navbar bg-faded container-fluid">
 				<div class="row">
-					<div class="col">
+					<div class="col offset-lg-1">
 						<ul class="nav list inline">
 							<li class="nav-item active">
 								<a class="nav-link" href="#">Fibre <span class="sr-only">(current)</span></a>
@@ -155,16 +177,15 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-lg-6">
+					<div class="col-lg-5">
 						&nbsp;
 					</div>
 					<div class="col">
 						<form class="form-inline my-2 my-lg-0">
-							<a href="#" class="btn btn-outline-success">Login</a>
+							<a href="#" class="btn btn-outline-success">LOGIN</a>
 						</form>
 					</div>
 				</div>
-			</div>
 			</div>
 		</nav>
 	</header>
@@ -236,86 +257,90 @@
 	<!-- === MAIN Background === -->
 	@yield('content')
 	<footer class="footer">
-		<nav class="navbar navbar-inverse" style="background-color:black;">
-			<div class="container">
+		<nav class="navbar navbar-inverse" style="background-color:black;padding:  70px;">
+			<div class="container-fluid">
 				<p>&nbsp;</p>
 				<div class="row">
-					<div class="col-lg-3">
-						<img src="{{asset('/images/logo.jpg')}}" height="150" width="200" class="rounded" alt="">
+					<div class="col-lg-2">
+						<img src="{{asset('/images/logo.jpg')}}" height="100" width="200" class="rounded" alt="">
 						<p class="lead">
 							Opérateur télécom - Expert dans la gestion de réseaux de télécommunications et la confidentialité des données - 20 ans d’expérience.
 						</p>
 					</div>
-					<div class="col-lg-2">
-						<h5 class="">SOLUTIONS ET SERVICES</h5>
-						<ul class="nav navbar-nav list-unstyled">
-							<li>
-								<a href="#">Solution connectivité haut-débit</a>
-							</li>
-							<li>
-								<a href="#">Solutions à valeurs ajoutée</a>
-							</li>
-							<li>
-								<a href="#">Etude de développement</a>
-							</li>
-						</ul>
+					<div class="col-lg-8 row">
+						<div class="col">
+							<h5 class="badge">SOLUTIONS ET SERVICES</h5>
+							<ul class="nav navbar-nav list-unstyled">
+								<li>
+									<a href="#">Solution connectivité haut-débit</a>
+								</li>
+								<li>
+									<a href="#">Solutions à valeurs ajoutée</a>
+								</li>
+								<li>
+									<a href="#">Etude de développement</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col">
+							<h5 class="badge">DIVERS</h5>
+							<ul class="nav navbar-nav list-unstyled">
+								<li>
+									<a href="#">Partenaires</a>
+								</li>
+								<li>
+									<a href="#">Blog</a>
+								</li>
+								<li>
+									<a href="#">Plan du site</a>
+								</li>
+								<li>
+									<a href="#">Mentions légales</a>
+								</li>
+								<li>
+									<a href="#">Conditions</a>
+								</li>
+								<li>
+									<a href="#">FAQ</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col">
+							<h5 class="badge">CONTACT</h5>
+							<ul class="nav navbar-nav">
+								<li>
+									<a href="">Centre Ville BP 123000 Port Gentil</a>
+								</li>
+								<li>
+									<a href="#">+241 01931667 - 06122732</a>
+								</li>
+								<li>
+									<div id="map">
+										<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31915.932954709537!2d8.761765709397002!3d-0.7332283839077801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sci!4v1518088044140" width="180" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+									</div>
+								</li>
+								<li>
+									<ul class="nav list-inline">
+										<li>
+											<a href=""><i class="fa fa-2x fa-facebook-official"></i></a>
+										</li>
+										<li>&nbsp;</li>
+										<li>&nbsp;</li>
+										<li>
+											<a href=""><i class="fa fa-2x fa-twitter-square"></i></a>
+										</li>
+										<li>&nbsp;</li>
+										<li>&nbsp;</li>
+										<li>
+											<a href=""><i class="fa fa-2x fa-linkedin-square"></i></a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
 					</div>
 					<div class="col-lg-2">
-						<h5>DIVERS</h5>
-						<ul class="nav navbar-nav list-unstyled">
-							<li>
-								<a href="#">Partenaires</a>
-							</li>
-							<li>
-								<a href="#">Blog</a>
-							</li>
-							<li>
-								<a href="#">Plan du site</a>
-							</li>
-							<li>
-								<a href="#">Mentions légales</a>
-							</li>
-							<li>
-								<a href="#">Conditions</a>
-							</li>
-							<li>
-								<a href="#">FAQ</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-lg-2">
-						<h5>CONTACT</h5>
-						<ul class="nav navbar-nav">
-							<li>
-								<a href="">Centre Ville BP 123000 Port Gentil</a>
-							</li>
-							<li>
-								<a href="#">+241 01931667 - 06122732</a>
-							</li>
-							<li>
-								<div id="map"></div>
-							</li>
-							<li>
-								<ul class="nav list-inline">
-									<li>
-										<a href=""><i class="fa fa-2x fa-facebook-official"></i></a>
-									</li>
-									<li>&nbsp;</li>
-									<li>&nbsp;</li>
-									<li>
-										<a href=""><i class="fa fa-2x fa-twitter-square"></i></a>
-									</li>
-									<li>&nbsp;</li>
-									<li>&nbsp;</li>
-									<li>
-										<a href=""><i class="fa fa-2x fa-linkedin-square"></i></a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-					<div class="col-lg-3">
-							<div class="fb-page" data-href="https://www.facebook.com/wakagabon/" data-tabs="timeline" data-width="450" data-height="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/wakagabon/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/wakagabon/">WAKA</a></blockquote></div>
+							<div class="fb-page" data-href="https://www.facebook.com/wakagabon/" data-tabs="timeline" data-width="200" data-height="420" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/wakagabon/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/wakagabon/">WAKA</a></blockquote></div>
 					</div>
 				</div>
 			</div>
