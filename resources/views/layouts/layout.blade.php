@@ -136,7 +136,7 @@
 			<div class="row">
 				<div class="col-lg-1">&nbsp;</div>
 				<div class="col">
-					<img src="{{asset('/images/logo.jpg')}}" height="80" width="170" class="rounded">
+					<img src="{{asset('/images/logo-waka.png')}}" height="120" width="170" class="rounded">
 				</div>
 				<div class="col-lg-4">&nbsp;</div>
 				<div class="col">
@@ -262,7 +262,7 @@
 				<p>&nbsp;</p>
 				<div class="row">
 					<div class="col-lg-2">
-						<img src="{{asset('/images/logo.jpg')}}" height="100" width="200" class="rounded" alt="">
+						<img src="{{asset('/images/logo-waka.png')}}" height="100" width="200" class="rounded" alt="">
 						<p class="lead">
 							Opérateur télécom - Expert dans la gestion de réseaux de télécommunications et la confidentialité des données - 20 ans d’expérience.
 						</p>
